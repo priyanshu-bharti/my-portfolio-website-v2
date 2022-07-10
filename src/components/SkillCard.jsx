@@ -3,6 +3,8 @@ import React from "react";
 export default function SkillCard({ sno, title, grad }) {
   return (
     <div
+      data-aos="fade-in"
+      data-aos-delay="300"
       className={`rounded-xl shadow-lg flex md:flex-col gap-4 items-center md:items-start bg-slate-50 min-w-fit p-4 md:hover:scale-105 md:hover:shadow-xl md:hover:bg-white md:hover:transition`}
     >
       <div

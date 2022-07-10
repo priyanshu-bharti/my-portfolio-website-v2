@@ -8,12 +8,20 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: 2px dashed rgba(141, 141, 141, 0.354);
+  outline-offset: 4px;
+}
+
 :root {
   scroll-behavior: smooth;
+  --scrollbarBG: #F2F5FA;
+  --thumbBG: #1AC2EE;
 }
 
 body {
   font-family: "Lexend", sans-serif;
+  background-color: #F2F5FA;
 }
 
 .shaded-box {

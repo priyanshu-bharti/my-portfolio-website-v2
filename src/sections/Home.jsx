@@ -3,14 +3,14 @@ import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <section className="max-w-screen-lg mx-auto w-full pt-20 min-h-screen flex flex-col justify-between">
-      <div className="flex flex-1 flex-col md:flex-row items-center justify-between gap-4">
+    <section className="max-w-screen-lg mx-auto w-full pt-20 min-h-screen flex flex-col justify-between px-5 lg:px-0">
+      <div data-aos="fade-in" className="flex flex-1 flex-col md:flex-row items-center justify-between gap-4">
         <Hero />
         <div className="">
           <img src="./img/hero-img.svg" className="h-72" alt="Avatar" />
         </div>
       </div>
-      <div className="flex py-8 justify-center md:justify-start items-center gap-4">
+      <div data-aos="fade-in" data-aos-delay="100" className="flex py-8 justify-center md:justify-start items-center gap-4">
         <a target="_blank" href="https://www.linkedin.com/in/priyanshubharti" className="fill-slate-600 md:hover:scale-110 md:transition md:hover:fill-sky-400" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function Home() {
         </a>
 
         <a href="./img/Priyanshu_Bharti_Resume.pdf" className="">
-          <div className="shadow-xl shadow-sky-200 cursor-pointer text-white p-4 bg-gradient-to-br from-sky-500 to-cyan-400 md:hover:scale-105 transition-transform md:hover:from-slate-600 md:hover:to-zinc-900 rounded-xl ">
+          <div className="shadow-xl shadow-sky-200 cursor-pointer text-white p-4 bg-gradient-to-br from-sky-500 to-cyan-400 md:hover:scale-105 transition md:hover:from-slate-600 md:hover:to-zinc-900 rounded-xl ">
             Download Resume
           </div>
         </a>

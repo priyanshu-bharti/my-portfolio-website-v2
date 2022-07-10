@@ -8,15 +8,22 @@ import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Tech from "./sections/Tech";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
   const [navOpen, setNavOpen] = React.useState(false);
-  console.log(navOpen);
+
+  React.useEffect(() => {
+    AOS.init({
+      duration: 400,
+    });
+  }, []);
 
   return (
     <main
       id="home"
-      className="master-grid grid text-slate-600 bg-slate-100 relative"
+      className="master-grid grid text-slate-600 relative "
     >
       <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
       {navOpen === true ? <MobileNavigation /> : <></>}

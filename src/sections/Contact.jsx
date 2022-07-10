@@ -13,13 +13,13 @@ export default function Contact() {
       id="contact"
     >
       <div className="grid place-items-center mt-auto gap-5">
-        <img className="h-64" src="./img/contact-img.svg" alt="" />
+        <img data-aos="fade in" className="h-64" src="./img/contact-img.svg" alt="" />
 
-        <h2 className="text-3xl font-bold">{title}</h2>
-        <p className="font-light">{description}</p>
+        <h2 data-aos="fade left" data-aos-delay="500" className="text-3xl font-bold">{title}</h2>
+        <p data-aos="fade right" data-aos-delay="700" className="font-light">{description}</p>
         
-        <a href="mailto:priyanshub25@example.com">
-          <div className="shadow-xl shadow-pink-200 font-bold cursor-pointer text-white p-4 bg-gradient-to-br from from-pink-500 to-red-400 hover:from-slate-600 hover:to-zinc-900 transition-colors rounded-xl w-fit">
+        <a data-aos="fade in" data-aos-delay="900" href="mailto:priyanshub25@example.com">
+          <div className="shadow-xl shadow-pink-200 font-bold cursor-pointer text-white p-4 bg-gradient-to-br from from-pink-500 to-red-400 hover:from-slate-600 hover:to-zinc-900 md:hover:scale-105 transition rounded-xl w-fit">
             Send Message
           </div>
         </a>

@@ -17,22 +17,22 @@ export default function About() {
   ));
 
   return (
-    <section id="about" className="px-5 min-h-screen pt-20 flex">
+    <section id="about" className="px-5 min-h-screen pt-20 flex items-center">
       <div className="flex-1 md:grid grid-cols-1 gap-5 auto-rows-max max-w-screen-lg mx-auto">
         <div className="lg:px-0">
           <Title title={title} description={description} />
         </div>
-        <div className="text-justify font-light">
+        <div data-aos="fade-in" className="text-justify font-light">
           I'm an ardent and dedicated individual seeking a position where I
           could apply the skills that I've accumulated for the benefit of my
           organization whilst following my never-ending quest of exploring the
           computer science domain and its applications in a multitude of areas.
         </div>
 
-        <h4 className="text-xl font-bold my-4 text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-cyan-400">
+        <h4 data-aos="fade-in" data-aos-delay="300" className="text-xl font-bold my-4 text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-cyan-400">
           My Education
         </h4>
-        <div className="grid md:grid-cols-2">{list}</div>
+        <div data-aos="fade-in" data-aos-delay="400"  className="grid md:grid-cols-2 gap-8">{list}</div>
       </div>
     </section>
   );

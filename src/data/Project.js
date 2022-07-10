@@ -2,7 +2,7 @@ export const projects = [
   {
     sno: "01",
     url: "website.png",
-    title: "This Portfolio Website",
+    title: "Personal Website v2",
     desc: "Created a beautiful portfolio website for my GitHub repo that showcases my works, skills and information about me.",
     tech: ["React.JS", "SCSS", "Tailwind CSS", "Node.JS"],
     type: "Solo Project",
@@ -50,7 +50,7 @@ export const projects = [
   {
     sno: "07",
     url: "spam.png",
-    title: "SMS Spam Classification",
+    title: "Spam Classification",
     desc: "Uses various Machine Learning algorithms like Naive bayes, Logistic Regression, Random Forest, to classify SMS compare the accuracies",
     tech: ["Python", "SciKit-Learn", "Pandas", "Numpy"],
     type: "Solo Project",
@@ -58,9 +58,9 @@ export const projects = [
   {
     sno: "08",
     url: "translate.png",
-    title: "Language Translator",
+    title: "Translator",
     desc: "Created a beautiful portfolio website for my GitHub that showcases some of my projects, skills and information about myself.",
     tech: ["Python", "Django", "IBM Watson", "bootstrap"],
-    type: "Solo Project",
+    type: "Team Project",
   },
 ];
