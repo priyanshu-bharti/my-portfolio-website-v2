@@ -21,7 +21,7 @@ export default function Tech() {
     />
   ));
   return (
-    <section id="tech" className="px-5 min-h-screen grid place-items-center">
+    <section id="tech" className="px-5 min-h-screen grid place-items-center pt-16">
       <div className="md:grid grid-cols-4 gap-5 auto-rows-max max-w-screen-lg mx-auto">
         <div className="col-span-4">
           <Title title={title} description={description} />
