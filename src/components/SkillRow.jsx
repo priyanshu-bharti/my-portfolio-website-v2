@@ -8,7 +8,7 @@ export default function SkillRow({ data, scroll }) {
 
   return (
     <div
-      className={`grid grid-cols-1 md:grid-cols-5 gap-5  ${scroll}`}
+      className={`grid grid-cols-1 md:grid-cols-5 gap-5 ${scroll}`}
     >
       {list}
     </div>
